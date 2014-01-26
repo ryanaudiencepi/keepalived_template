@@ -21,7 +21,7 @@ chkconfig keepalived on
 </pre>
 
 ## Keepalived Check
-Keepalived output logs to syslogs. Run "tail -f /var/log/messages" on both servers. 
+Keepalived output logs to syslog. Run "tail -f /var/log/messages" on both servers. 
 
 - When you start the service your master server should transit to Master State and your backup server should transit to Backup state. 
 
