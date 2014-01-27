@@ -11,8 +11,8 @@ sysctl -p
 </pre>
 
 ## Keepalived Configuration
-On master server, upload keepalive-master.conf to /etc/keepalived.conf  
-On backup server, upload keepalive-backup.conf to /etc/keepalived.conf  
+On master server, upload keepalive-master.conf to /etc/keepalived/keepalived.conf  
+On backup server, upload keepalive-backup.conf to /etc/keepalived/keepalived.conf  
 Needless to say, you should use your own virtual ip address =)
 
 <pre>
